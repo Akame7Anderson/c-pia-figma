@@ -1,0 +1,257 @@
+header .cima {
+  display: flex;
+  justify-content: space-between;
+  
+}
+.cima .icon {
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+
+}
+.icon p {
+
+  margin: 10px;
+
+}
+.cima .pag {
+  display: flex;
+  padding-right: 50px;
+}
+  
+.cima h3 {
+  padding-left: 10px;
+  font-weight: 500;
+  font-size: 16px;
+
+}
+
+main .parte1 {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 107px 0px;
+max-width: 1000px;
+margin: auto;
+}
+.parte1 h4 {
+  color:  rgb(0, 89, 255);
+}
+.parte1 h1 {
+  font-weight: 600;
+  font-size: 48px;
+  margin: 0px 0px 30px 0px;
+}
+.parte1 p {
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+}
+main .parte2 {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1200px;
+  margin: auto;
+}
+.parte2 p {
+  font-weight: 400;
+  line-height: 20px;
+  margin-left: 100px ;
+}
+.parte2 .numero {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 72px;
+  color: #0078AD;
+}
+.parte2 .title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #101828;
+}
+.parte2 .txt {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+}
+
+
+.parte3 .div1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.parte3 .div1 h4 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #0078AD;
+  background-color: rgba(165, 164, 164, 0.377);
+  border-radius: 7px;
+}
+.parte3 h1 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 44px;
+  color: #101828;
+}
+
+.parte3 p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #667085;
+}
+
+
+.parte3 .div2 .subdiv {
+  border: 1px solid #EAECF0;
+  border-radius: 16px;
+  padding-left: 24px ;
+}
+
+.div2 {
+  max-width: 700px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.subdiv h2 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.subdiv .subdivP p {
+  font-size: 13px;
+  color: #667085;
+}
+.subdiv .subdivP{
+  display: flex;
+}
+.subdiv .primeirop {
+  padding-right: 25px;
+
+}
+
+.parte4 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  max-width: 880px;
+  background: rgba(0, 120, 173, 0.03);
+  border-radius: 16px;
+  margin-top: 50px;
+ 
+}
+
+.parte4 .textoparte4 p {
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #0078AD;
+
+}
+.parte4 .textoparte4 h1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+}
+.parte4 .footerparte4 {
+  text-align: center;
+  
+}
+
+.parte4 .footerparte4 h4 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.parte4 .footerparte4 p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #667085;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(0, 120, 173, 0.03);
+  margin-top: 70px;
+}
+
+
+footer .h1 {
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+
+}
+
+footer .penultimo {
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  color: #667085;
+
+}
+
+footer .ultimo {
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  color: #98A2B3;
+
+}
+
+footer button {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  background: #0078AD;
+  border: 1px solid #0078AD;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 4px;
+  color: #FFFFFF;
+  width: 80px;
+  height: 32px;
+}
+footer input {
+  margin-right: 7px;
+  background: #FFFFFF;
+  border: 3.5px solid #ffffff;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  box-sizing: border-box;
+  width: 250px;
+  height: 40px;
+}
+
+
+
